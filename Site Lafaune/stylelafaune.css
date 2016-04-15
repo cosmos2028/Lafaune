@@ -1,0 +1,128 @@
+﻿
+
+back{
+	background-color : blue;
+}
+
+p {
+     height:200px;
+	line-height:200px;
+	text-align:center;
+}
+table:not(.exclu .tab1td) {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ width: 100%;
+ height: 100%;
+ }
+ .exclu 
+ {
+ 	width: 65%;
+ }
+ 
+ .floattant{ float:left;}
+ 
+ .tab1
+ {
+ 	width: 100%;
+ 	height: 100%;
+     height: auto;
+ }
+
+#bouton{
+
+	width:100%;
+	text-align:center;
+}
+.tab1td
+{    vertical-align: top;
+ text-align:auto;
+	 height: auto;
+      width:100%;
+}
+td:not(.tab1td ) { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:grey;
+ text-align:middle;
+ width:100%;
+
+ }
+
+td img {
+	width:100%;
+	height: auto;
+
+    }
+
+portrait{
+width:467px;
+height:700px;
+}
+paysage{
+width:700px;
+height:467px;
+}
+
+body {
+ background-color:#DEB887; 
+ font-family: Verdana, sans-serif; 
+ }
+
+ ul{
+font-size : 80%;
+color : navy;
+list-style-type : none;
+margin-left: 1cm; 
+ }
+ 
+ h1 {
+ font-size: 150%; 
+ color: navy; 
+ text-align: center;
+ }
+h2 {
+ font-size: 80%; 
+ color: navy; 
+ margin-left: 0;
+ }
+ 
+ h3 {
+ font-size: 80%; 
+ color: navy; 
+ margin-left: 2cm;
+ }
+ 
+ h5{
+ text-align : center;
+ color : navy;
+ font-size : 70%; 
+ }
+ champs {
+ font-size : 100%;
+ color : black;
+ text-align :center;
+ }
+ image{
+text-align : center;
+ }
+
+ b{
+ color: black; 
+ }
+a:link {
+ color: green;
+ text-decoration: underline;
+ }
+a:visited {
+ color: gray;
+ }
+a:hover {
+ color: red;
+ text-decoration: none;
+}
+a:active, a:focus {
+ color: red;
+}
+

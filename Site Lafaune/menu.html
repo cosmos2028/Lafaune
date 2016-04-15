@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+    <head> <!-- chargement du css et du type duformat-->
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+		<link rel="stylesheet" href="stylelafaune.css" />
+    </head>
+
+    <body style=" overflow-x:hidden; overflow-y:auto;">
+		<h3> 	Sté Lafaune	 <br />
+				</br>
+				<li><a href="accueil.html" target="_parent">ACCUEIL</a></li></br> <!-- permet la redirection sur la page d'acceuille-->
+				<li><a href="MenuInscription.php" target="_parent">INSCRIPTION</a></li></br> <!-- permet la redirection sur la page d'acceuille -->
+
+				<br /> <!-- tous les br permet le saut de ligne-->
+				<br />
+		</h3>
+		
+		<h2>	
+				<hr align=left width=250px/> <!-- permet de mettre une barre horizontale -->
+		</h2>
+		
+		<ul>	
+				</br>	
+				</br>
+				</br>
+				Nos produits</br></br> <!-- le menu du site et ses différents liens de redirection -->
+				</br>
+				<li><a href="Cahier des charges/Images Nature/Carnivores/menucarni.php" target="_parent">Carnivores</a></li></br>
+				<li><a href="Cahier des charges/Images Nature/Paysages/menupaysages.php" target="_parent">Paysages</a></li></br>
+				<li><a href="Cahier des charges/Images Nature/Oiseaux/menuoiseaux.php" target="_parent">Oiseaux</a></li></br>
+				<li><a href="Cahier des charges/Images Nature/Autres/menuautres.php"target="_parent">Autres mammifères</a></li></br>
+				</br>
+		</ul>
+		
+		<h2>	
+			<hr align=left width=250px/> <!-- permet de mettre une barre horizontale -->
+		
+		</h2>
+		<div id="bouton"> <!-- cette div de regrouper mes deux formulaires et lui attribuer les meme propriete en css -->
+		
+		<form method="post" action="menuVider.php" target="_parent">
+        <input style = "width:50%;" type="submit" value="Vider le panier" /></br></br><!--Bouton pour vider le panier -->
+        </form>
+
+        <form method="post" action="menucom.php" target="_parent">
+        <!-- Bouton de commende -->
+        <input style = "width:50%;" type="submit" value=" Commander  "  /> <!-- Bouton pour  commender -->
+         </form>
+        </div>
+
+    </body>
+</html>
